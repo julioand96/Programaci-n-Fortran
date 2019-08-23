@@ -1,0 +1,35 @@
+Navegación básica
+* pwd : Dice en qué directorio te encuentras.
+* ls : Muestra una lista de los archivos del directorio.
+* cd [directory] : Cambiar al [directorio].
+* file [path] : Dice el tipo de archivo que es [path].
+
+Comandos de ayuda
+* man <command to look up> : Muestra un manual acerca del <comando buscado>.
+* man -k <search term> : Hace una búsqueda del <término> en los manuales.
+* /<term> : Busca el <término> una vez que estás dentro de un manual.
+* n : Una vez buscado el término, selecciona el siguiente item encontrado.
+* <Cntrol> + c : Señal universal para "Cancel" en Linux.
+
+Manipulación de archivos
+* mkdir <directory> : Crear directorio <nombre del directorio>. 
+* rmdir <directory> : Borra directorio .
+* touch <filename> : Crea archivo (Realmente modifica los tiempos de acceso y 
+modificación).
+* cp <source> <destination> : Copia archivo o directorio del <origen> al <destino>.
+* mv <source> <destination> : Mueve archivo de <origen> a <destino>. También se usa para renombrar.
+* vi <file> : Ir a editor de texto para el <archivo>.
+* cat <file> : Juntar archivos. En su forma básica solo vemos el archivo.
+* less <file> : Igual que cat, pero es mejor para archivos grandes. 
+* chmod [permissions] [path] : Cambia los [permisos] de un [archivo].
+* head [-number of lines to print] [path] : Muestra las primeras [-n] líneas del [archivo].
+* tail [-number of lines to print] [path] : Muestra las últimas [-n] líneas del [archivo].
+* sort [-options] [path] : Ordena las líneas según las [opciones] del [archivo].
+* nl [-options] [path] : Muestra el número de líneas con diferentes [opciones] para un [archivo].
+
+Wildcards
+- * : Cero o más caracteres.
+- ? : Un sólo caracter.
+- [] : Rango de caracteres.
+- ^ : Reverse a range, se usa por ej: [^a-k].
+		
